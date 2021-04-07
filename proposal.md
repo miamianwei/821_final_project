@@ -12,11 +12,11 @@ The tasks of this project include:
 * Conduct exploratory data analysis. Analyze data set to summarize the main characteristics.
 2. Data pre-processing (Huimin)
 * Matplotlib, PyTorch, Numpy and Torchvision will be used to Pre-process the data. 
-3. Creating classification mode 
+3. Creating classification model 
 * Load the pre-trained network(Mian)
 * Use ReLU as the activation function and define a new untrained feedforward network as the classifier(Yiyuan)
 * Use backpropagation to train the classifier layer and use the pre-trained network to acquire features(Huimin)
 4. Model evaluation (Mian)
 * Track the loss and accuracy of the validation set to determine the best hyperparameters.
 5. Building predict function (Yiyuan & Huimin & Mian)
-* create a predict function that can predict the label of an input image.
+* Create a predict function that can predict the label of an input image.
