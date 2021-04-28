@@ -20,8 +20,9 @@ In vgg_19.py file, we used the tensorflow keras functions to train the vgg19 mod
 ### VGG_16 Model
 In vgg_16.py file, we used the tensorflow keras functions to train the vgg16 model. Two additional convolutional layers and two dense layers were added to the standard vgg16 network for higher accuracy. After 10 epochs training, the accuracy in validation set reaches 0.96, and the accuracy in test set reaches 0.98. 
 
->>>>>>> f440ee2c50cd9804faa85762708ee9b2f26056fd
-
+#### Values for VGG-19 based ConvNet
+![Values for VGG-16 based ConvNet.png](https://i.loli.net/2021/04/29/BOmRixDL5HF4n8k.png)
+![Values for VGG-16 based ConvNet.png](https://i.loli.net/2021/04/29/gPSKHTs1bfkz7i4.png)
 
 ## How to Use Predict Function
 ### About predict_OCT.py
