@@ -25,9 +25,9 @@ def predict(image_path, model_type):
     if model_type not in ['vgg16', 'vgg19']:
         raise ValueError("model_type should be 'vgg16' or 'vgg19'.")
     if model_type == 'vgg16':
-        model_input = load_model('/content/drive/MyDrive/vgg16_model/vgg16_model')
+        model_input = load_model('../vgg16_model')
     if model_type == 'vgg19':
-        model_input = load_model('/content/drive/MyDrive/vgg19_model/vgg19_model')
+        model_input = load_model('../vgg19_model')
     img = process_image(image_path)
     model = model_input
     result = model.predict(img)
